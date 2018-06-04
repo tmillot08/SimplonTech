@@ -1,0 +1,11 @@
+@import "../../css/reset.css";
+
+.main_produits {
+  width: 980px;
+  margin: auto;
+}
+
+.image_card {
+  background-image: url(https://placeimg.com/200/100);
+  height: 100px;
+}
