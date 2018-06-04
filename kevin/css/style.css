@@ -1,5 +1,27 @@
 @import "../../css/reset.css";
 
+html {
+  font-size: 62.5%;
+}
+
+h2 {
+  padding: 20px;
+  color: white;
+  background-color: #336558;
+  font-size: 6rem;
+  text-align: center;
+  border: 1px solid #274156;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px 5px;
+  width: 60%;
+  margin: auto;
+  margin: 5% 0% 5% 0%;
+}
+
+.card {
+  margin: 40px 0px 40px 0px;
+}
+
 .main_produits {
   width: 980px;
   margin: auto;
