@@ -16,7 +16,7 @@
 		<div class="mainlog">
             <div class="logbox">
                 <div class="pictbox">
-                    <img src="img/vign.png">
+                    <img src="../img/vign.png">
                 </div>
                 <div class="textbox">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sollicitudin sit amet tortor in scelerisque. Fusce in eleifend metus. Maecenas neque magna, fringilla in feugiat sed, ornare eu ligula. Proin tristique ultricies metus, vel ornare tellus ullamcorper a. Nam cursus dui vel dolor tempor aliquet. Suspendisse tincidunt auctor neque. Vivamus facilisis lacinia sem, non lacinia ex finibus et. In hac habitasse platea dictumst. Proin pharetra dolor eget odio facilisis, nec maximus turpis blandit.</p>
