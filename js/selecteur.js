@@ -1,20 +1,24 @@
+var nomFichier = document.documentURI.split("/")[document.documentURI.split("/").length - 1];
 var target = document.getElementsByClassName('selectNav');
 var indextarget;
 
-switch (document.title) {
-  case "Accueil":
+switch (nomFichier) {
+  case "accueil.html":
     indextarget = 0;
     break;
-  case "Nos Produits":
+  case "logiciel.php":
     indextarget = 1;
     break;
-  case "Qui somme nous ?":
-      indextarget = 2;
-      break;
-  case "Support":
+  case "hardware.php":
+    indextarget = 1;
+    break;
+  case "presentation.php":
+    indextarget = 2;
+    break;
+  case "support.html":
     indextarget = 3;
     break;
-  case "Contact":
+  case "contact.php":
     indextarget = 4;
     break;
   default:
