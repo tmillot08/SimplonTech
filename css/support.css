@@ -1,20 +1,29 @@
+body{
+  animation-name: fade;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
 .supportMain{
   background-color: white;
+  border-style: groove;
+  margin: auto;
   padding-top: 50px;
   padding-bottom: 50px;
+  width: 70%;
+
 }
 
 form{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 33%;
-  margin-left: 33%;
-  margin-right: 33%;
+  width: 80%;
+  margin: auto;
   margin-top: 50px;
   margin-bottom: 50px;
   padding: 30px;
-  background-color: rgba(39 ,65,86,0.7);
+  background-color: rgba(0,0,0,0.85);
   border-radius: 10px;
   border: 5px groove black;
   border-style: groove;
@@ -32,11 +41,13 @@ form fieldset{
 }
 
 form input{
-  margin-top: 5px
+  margin-top: 10px
 }
 
 form p{
+  font-size: 2.0rem;
   text-decoration: underline;
+  margin-bottom: 10px;
 }
 
 form fieldset *:not([type="submit"]){
@@ -64,4 +75,55 @@ form input:hover[type="submit"]{
   border: 2px solid teal;
   width: 32%;
   height: 40px;
+}
+
+@keyframes fade {
+  to{
+    background-color: white;
+  }
+  50%{
+    background-color: silver;
+  }
+  from{
+    background-color: white;
+  }
+}
+
+@keyframes issou {
+  to{
+    background-color: red;
+    border-radius: 0px;
+  }
+  10%{
+    background-color: orange;
+  }
+  20%{
+    background-color: yellow;
+  }
+  30%{
+    background-color: green;
+  }
+  40%{
+    background-color: purple;
+  }
+  50%{
+    background-color: blue;
+    border-radius: 50%;
+  }
+  60%{
+    background-color: purple;
+  }
+  70%{
+    background-color: yellow;
+  }
+  80%{
+    background-color: orange;
+  }
+  90%{
+    background-color: red;
+    border-radius: 0px;
+  }
+  from{
+    background-color: white;
+  }
 }
