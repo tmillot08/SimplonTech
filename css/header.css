@@ -16,7 +16,7 @@
   font-size: 6rem;
 }
 
-ul {
+header ul {
     list-style-type: none;
     height: 60px;
     margin: 0;
@@ -29,13 +29,13 @@ ul {
     box-shadow: 1px 6px 8px #888888;
 }
 
-li {
+header li {
     height: 60px;
     float: left;
 }
 
 
-li a {
+header li a {
     height: 60px;
     display: block;
     color: #ffead0;
@@ -51,7 +51,7 @@ li a {
   border-left: 2px solid #ffead0;
 }
 
-li a:hover:not(.active){
+header li a:hover:not(.active){
     background-color: black;
 }
 
