@@ -6,15 +6,40 @@
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/support.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   </head>
   <body>
-    <header>
 
+    <header>
+      <div id="ban">
+        <div class="center">
+          <div class="title">Simplon Tech</div>
+        </div>
+      </div>
+
+      <nav>
+        <ul>
+          <li>
+            <a href="#" class="fa fa-home fa-3x active" id="left" ></a>
+          </li>
+          <li class="prod">
+            <a href="#">Nos Produit</a>
+            <div class="deroule" id="left">
+              <a href="#"> Hardware</a>
+              <a href="#">Software</a>
+            </div>
+          </li>
+          <li> <a href="#">Qui somme nous ?</a></li>
+          <li> <a href="#"> Support</a> </li>
+          <li>  <a href="#">Contact</a></li>
+        </ul>
+      </nav>
     </header>
 
     <main class="supportMain">
-      <h1>Support</h1>
       <form action="index.html" method="post">
+        <h1>Support</h1>
         <fieldset class="infoClient">
           <p>Vos Infos :</p>
           <input type="text" name="nom" placeholder="Nom" required>
@@ -37,7 +62,28 @@
     </main>
 
     <footer>
-
+      <div class="navLogo">
+        <div class ="navFooter">
+          <ul><p>Sommaire:</p>
+            <a href=""><li>Accueil</li></a>
+            <a href=""><li>Nos produit</li></a>
+            <a href=""><li>Support</li></a>
+            <a href=""><li>Qui somme nous</li></a>
+            <a href=""><li>Contact</li></a>
+          </ul>
+        </div>
+        <div class = "logotech">
+          <p>Simplon</p>
+          <p>Tech</p>
+        </div>
+        <div class="groupeLogo">
+          <span class="logo fab fa-facebook-square fa-5x"></span>
+          <span class="logo fab fa-twitter-square fa-5x"></span>
+          <span class="logo fab fa-youtube-square fa-5x"></span>
+        </div>
+    </div>
+    <p id="copyright">©Simplon Tech</p>
     </footer>
+    <script type="text/javascript" src="../js/selecteur.js"></script>
   </body>
 </html>

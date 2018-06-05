@@ -1,33 +1,111 @@
 @import "../../css/reset.css";
+@import url('https://fonts.googleapis.com/css?family=Righteous');
 
-html {
-  font-size: 62.5%;
-}
-
-h2 {
+.main_produits h1 {
   padding: 20px;
   color: white;
-  background-color: #336558;
-  font-size: 6rem;
+  margin: auto;
+  background-color: #274156;
   text-align: center;
   border: 1px solid #274156;
   border-radius: 20px;
   box-shadow: 5px 5px 5px 5px;
   width: 60%;
   margin: auto;
-  margin: 5% 0% 5% 0%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.main_produits h2 {
+  width: 100%;
+  border: 1px solid ;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding-bottom: 20px;
+  margin-top: 10%;
+  color: #0d0630;
+  padding-left: 1%;
 }
 
 .card {
   margin: 40px 0px 40px 0px;
+  font-size: 1.6rem;
+}
+
+.card-header {
+  font-size: 2.4rem;
+  color: #0d0630;
+  text-decoration: underline;
 }
 
 .main_produits {
-  width: 980px;
+  width: 100%;
   margin: auto;
 }
 
-.image_card {
-  background-image: url(https://placeimg.com/200/100);
-  height: 100px;
+
+.card a {
+  text-decoration: none;
+  color: black;
+}
+
+.card {
+  box-shadow: 0px 3px 3px 3px;
+  border-radius: 5px;
+}
+
+.card_image {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 150px
+}
+
+/* IMAGES DES CARDS */
+.image_card1 {
+  background-image: url(../img/alienware.jpeg);
+}
+
+.image_card2 {
+  background-image: url(../img/rightpc.png);
+}
+
+.image_card3 {
+  background-image: url(../img/invictus.jpg);
+}
+
+.image_card4 {
+  background-image: url(../img/razer.jpg);
+}
+
+.image_card5 {
+  background-image: url(../img/titanx.jpg);
+}
+
+.image_card6 {
+  background-image: url(../img/1080.jpeg);
+}
+
+.image_card7 {
+  background-image: url(../img/1060.jpg);
+}
+
+.image_card8 {
+  background-image: url(../img/r9.jpeg);
+}
+
+.image_card9 {
+  background-image: url(../img/g910.jpeg);
+}
+
+.image_card10 {
+  background-image: url(../img/naga.jpeg);
+}
+
+.image_card11 {
+  background-image: url(../img/ecran.jpg);
+}
+
+.image_card12 {
+  background-image: url(../img/volant.jpg);
 }

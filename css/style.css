@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+
+html{
+  font-family: "Righteous" , cursive;
+}
+
+
 /*----------------RESIZE--------------------------*/
 html{
   font-size: 62.5%;
@@ -30,11 +37,10 @@ footer{
   flex-direction: column;
   flex-wrap: wrap;
   position: absolute;
-  bottom: 0;
   background-color: #0D0630;
   color: #FFEAD0;
   min-width: 100%;
-   max-height: 270px;
+  max-height: 270px;
 }
 
 footer ul {
@@ -92,4 +98,43 @@ footer span {
   margin-top: auto;
   margin-right: 10px;
   margin-bottom: 10px;
+}
+
+@keyframes issou {
+  to{
+    background-color: red;
+    border-radius: 0px;
+  }
+  10%{
+    background-color: orange;
+  }
+  20%{
+    background-color: yellow;
+  }
+  30%{
+    background-color: green;
+  }
+  40%{
+    background-color: purple;
+  }
+  50%{
+    background-color: blue;
+    border-radius: 50%;
+  }
+  60%{
+    background-color: purple;
+  }
+  70%{
+    background-color: yellow;
+  }
+  80%{
+    background-color: orange;
+  }
+  90%{
+    background-color: red;
+    border-radius: 0px;
+  }
+  from{
+    background-color: white;
+  }
 }
