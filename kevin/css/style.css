@@ -1,8 +1,6 @@
 @import "../../css/reset.css";
 @import url('https://fonts.googleapis.com/css?family=Righteous');
 
-
-
 .main_produits h1 {
   padding: 20px;
   color: white;
@@ -35,8 +33,14 @@
   font-size: 1.6rem;
 }
 
+.card-header {
+  font-size: 2.4rem;
+  color: #0d0630;
+  text-decoration: underline;
+}
+
 .main_produits {
-  width: 980px;
+  width: 100%;
   margin: auto;
 }
 
@@ -52,7 +56,7 @@
 }
 
 .card_image {
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   height: 150px
 }
@@ -63,9 +67,45 @@
 }
 
 .image_card2 {
-  background-image: url(../img/s340.jpg);
+  background-image: url(../img/rightpc.png);
 }
 
 .image_card3 {
-  background-image: url(../img/laptop.jpg);
+  background-image: url(../img/invictus.jpg);
+}
+
+.image_card4 {
+  background-image: url(../img/razer.jpg);
+}
+
+.image_card5 {
+  background-image: url(../img/titanx.jpg);
+}
+
+.image_card6 {
+  background-image: url(../img/1080.jpeg);
+}
+
+.image_card7 {
+  background-image: url(../img/1060.jpg);
+}
+
+.image_card8 {
+  background-image: url(../img/r9.jpeg);
+}
+
+.image_card9 {
+  background-image: url(../img/g910.jpeg);
+}
+
+.image_card10 {
+  background-image: url(../img/naga.jpeg);
+}
+
+.image_card11 {
+  background-image: url(../img/ecran.jpg);
+}
+
+.image_card12 {
+  background-image: url(../img/volant.jpg);
 }
