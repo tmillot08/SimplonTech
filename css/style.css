@@ -4,11 +4,6 @@ html{
   font-family: "Righteous" , cursive;
 }
 
-body , body * {
-  animation-name: issou;
-  animation-duration: 0.3s;
-  animation-iteration-count: infinite;
-}
 
 /*----------------RESIZE--------------------------*/
 html{
