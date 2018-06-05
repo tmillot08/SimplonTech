@@ -19,3 +19,77 @@ li{
   font-size: 1.6rem;
 }
 /*------------------------------------------------*/
+
+/************************FOOTER**************************/
+footer a {
+  color: inherit;
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  position: absolute;
+  bottom: 0;
+  background-color: #0D0630;
+  color: #FFEAD0;
+  min-width: 100%;
+   max-height: 270px;
+}
+
+footer ul {
+  margin-top: 30px;
+  margin-left: 20px;
+  list-style:disc;
+}
+
+footer ul a li{
+  width: 120px;
+  height: auto;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+footer span {
+}
+
+
+.navLogo{
+  display: flex;
+  justify-content:flex-start;
+  width: 100%;
+}
+
+.groupeLogo{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-left: 95%;
+  position: absolute;
+}
+
+.navFooter{
+  align-self: flex-start;
+}
+
+.logotech{
+    margin-left: 32%;
+    margin-top: 50px;
+}
+
+.logotech p:nth-child(2){
+  margin-left: 55%;
+}
+
+.logotech p{
+  font-size: 5.0rem;
+
+}
+
+#copyright{
+  align-self: flex-end;
+  margin-top: auto;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
