@@ -11,14 +11,14 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-    <title>Titre</title>
+    <title>Nos Produits</title>
   </head>
   <body>
     <header>
       <?php include('../html/header.html') ?>
     </header>
     <main class="main_produits">
-    <div class="container-fluid">
+    <div class="container">
 
       <h1>Nos produits</h1>
 
@@ -28,12 +28,12 @@
         <div class="col-3">
           <div class="card text-center">
             <a href="https://google.com">
-            <div class="card-header p-5">Nom produit</div>
+            <div class="card-header p-5">Alienware M17x</div>
             <div class="image_card1 card_image"></div>
             <div class="card-body text-left p-4">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Nouvelle déclinaison 2012 de l'Alienware M17x chez Dell. Ce PC portable à écran 17,3 pouces pensé pour les joueurs nomades en manque de confort
               </div>
-              <div class="card-footer pt-4 pb-4">19€99</div>
+              <div class="card-footer pt-4 pb-4">999€90</div>
               </a>
             </div>
           </div>
@@ -42,12 +42,12 @@
           <div class="col-3">
             <div class="card text-center">
               <a href="https://google.com">
-              <div class="card-header p-5">Nom produit</div>
+              <div class="card-header p-5">Right pc</div>
               <div  class="image_card2 card_image"></div>
               <div class="card-body text-left p-4">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Un PC Gaming qui vous ressemble !
                 </div>
-                <div class="card-footer pt-4 pb-4">19€99</div>
+                <div class="card-footer pt-4 pb-4">799€90</div>
                 </a>
               </div>
             </div>
@@ -55,12 +55,12 @@
             <div class="col-3">
               <div class="card text-center">
                 <a href="https://google.com">
-                <div class="card-header p-5">Nom produit</div>
+                <div class="card-header p-5">Invictus</div>
                 <div class="image_card3 card_image"></div>
                 <div class="card-body text-left p-4">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Une excellente carte graphique et un bon moniteur en font un excellent achat.
                   </div>
-                  <div class="card-footer pt-4 pb-4">19€99</div>
+                  <div class="card-footer pt-4 pb-4">599€90</div>
                   </a>
                 </div>
               </div>
@@ -68,30 +68,30 @@
               <div class="col-3">
                 <div class="card text-center">
                   <a href="https://google.com">
-                  <div class="card-header p-5">Nom produit</div>
-                  <div class="image_card4" class="card_image"></div>
+                  <div class="card-header p-5">Project Linda</div>
+                  <div class="image_card4 card_image"></div>
                   <div class="card-body text-left p-4">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Le Project Linda se sert de la puissance du Razer Phone pour s'animer.
                     </div>
-                    <div class="card-footer pt-4 pb-4">19€99</div>
+                    <div class="card-footer pt-4 pb-4">1299€90</div>
                     </a>
                   </div>
                 </div>
 
       </div>
 
-      <h2>Catégorie 2</h2>
+      <h2>Cartes graphiques</h2>
 
       <div class="row">
         <div class="col-3">
           <div class="card text-center">
             <a href="https://google.com">
-            <div class="card-header p-5">Nom produit</div>
-            <div class="image_card5" class="card_image"></div>
+            <div class="card-header p-5">Titan x</div>
+            <div class="image_card5 card_image"></div>
             <div class="card-body text-left p-4">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Performances extrêmes, refroidissement liquide par Gigabyte
               </div>
-              <div class="card-footer pt-4 pb-4">19€99</div>
+              <div class="card-footer pt-4 pb-4">1099€90</div>
               </a>
             </div>
           </div>
@@ -100,12 +100,12 @@
           <div class="col-3">
             <div class="card text-center">
               <a href="https://google.com">
-              <div class="card-header p-5">Nom produit</div>
-              <div class="image_card6" class="card_image"></div>
+              <div class="card-header p-5">GTX 1080</div>
+              <div  class="image_card6 card_image"></div>
               <div class="card-body text-left p-4">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Cette carte graphique délivre une puissance foudroyante avec sa mémoire GDDR5X à 11 Gb/s et ses 11 Go de mémoire tampon.
                 </div>
-                <div class="card-footer pt-4 pb-4">19€99</div>
+                <div class="card-footer pt-4 pb-4">729€90</div>
                 </a>
               </div>
             </div>
@@ -113,12 +113,12 @@
             <div class="col-3">
               <div class="card text-center">
                 <a href="https://google.com">
-                <div class="card-header p-5">Nom produit</div>
-                <div class="image_card7" class="card_image"></div>
+                <div class="card-header p-5">GTX 1060</div>
+                <div class="image_card7 card_image"></div>
                 <div class="card-body text-left p-4">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  C'est LA carte graphique Gaming au rapport Performances/Prix imbattable basée sur l'architecture NVIDIA Pascal.
                   </div>
-                  <div class="card-footer pt-4 pb-4">19€99</div>
+                  <div class="card-footer pt-4 pb-4">279€90</div>
                   </a>
                 </div>
               </div>
@@ -126,30 +126,30 @@
               <div class="col-3">
                 <div class="card text-center">
                   <a href="https://google.com">
-                  <div class="card-header p-5">Nom produit</div>
-                  <div class="image_card8" class="card_image"></div>
+                  <div class="card-header p-5">R9 290</div>
+                  <div class="image_card8 card_image"></div>
                   <div class="card-body text-left p-4">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Votre nouvel allié gaming !
                     </div>
-                    <div class="card-footer pt-4 pb-4">19€99</div>
+                    <div class="card-footer pt-4 pb-4">329€90</div>
                     </a>
                   </div>
                 </div>
 
       </div>
 
-      <h2>Catégorie 3</h2>
+      <h2>Périphériques</h2>
 
       <div class="row">
         <div class="col-3">
           <div class="card text-center">
             <a href="https://google.com">
-            <div class="card-header p-5">Nom produit</div>
-            <div class="image_card9" class="card_image"></div>
+            <div class="card-header p-5">G910</div>
+            <div class="image_card9 card_image"></div>
             <div class="card-body text-left p-4">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Un clavier mécanique suréquipé au rétroéclairage RGB !
               </div>
-              <div class="card-footer pt-4 pb-4">19€99</div>
+              <div class="card-footer pt-4 pb-4">139€90</div>
               </a>
             </div>
           </div>
@@ -158,12 +158,12 @@
           <div class="col-3">
             <div class="card text-center">
               <a href="https://google.com">
-              <div class="card-header p-5">Nom produit</div>
-              <div class="image_card10" class="card_image"></div>
+              <div class="card-header p-5">Razer naga</div>
+              <div class="image_card10 card_image"></div>
               <div class="card-body text-left p-4">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Succombez au charme venimeux de la Naga !
                 </div>
-                <div class="card-footer pt-4 pb-4">19€99</div>
+                <div class="card-footer pt-4 pb-4">99€90</div>
                 </a>
               </div>
             </div>
@@ -171,12 +171,12 @@
             <div class="col-3">
               <div class="card text-center">
                 <a href="https://google.com">
-                <div class="card-header p-5">Nom produit</div>
-                <div class="image_card11" class="card_image"></div>
+                <div class="card-header p-5">BenQ XL2411</div>
+                <div class="image_card11 card_image"></div>
                 <div class="card-body text-left p-4">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ecran Zowie 24'' Full HD - Dalle TN - 5 ms - 144 Hz - HDMI / DVI / VGA
                   </div>
-                  <div class="card-footer pt-4 pb-4">19€99</div>
+                  <div class="card-footer pt-4 pb-4">279€90</div>
                   </a>
                 </div>
               </div>
@@ -184,12 +184,12 @@
               <div class="col-3">
                 <div class="card text-center">
                   <a href="https://google.com">
-                  <div class="card-header p-5">Nom produit</div>
-                  <div class="image_card12" class="card_image"></div>
+                  <div class="card-header p-5">G27</div>
+                  <div class="image_card12 card_image"></div>
                   <div class="card-body text-left p-4">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Avec le retour de force à deux moteurs, les plus grands circuits du monde vous paraîtront plus réels que jamais.
                     </div>
-                    <div class="card-footer pt-4 pb-4">19€99</div>
+                    <div class="card-footer pt-4 pb-4">199€90</div>
                     </a>
                   </div>
                 </div>
@@ -201,7 +201,9 @@
     <footer>
       <?php include("../html/footer.html") ?>
     </footer>
+    <script type="text/javascript" src="../js/selecteur.js">
 
+    </script>
   </body>
 </html>
 
