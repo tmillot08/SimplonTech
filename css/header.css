@@ -79,3 +79,23 @@ header li a:hover:not(.active){
 .prod:hover .deroule{
     display: block;
 }
+
+.test{
+  background-color: white;
+  color: black;
+  animation-name: currentPage;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes currentPage {
+  from{
+    opacity: 0.8;
+  }
+  50%{
+    opacity: 0.5;
+  }
+  to{
+    opacity: 0.8;
+  }
+}
