@@ -23,3 +23,19 @@ switch (document.title) {
 
 current = target[indextarget];
 current.setAttribute("class",current.getAttribute('class') + " test");
+
+
+
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("navfix");
+
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
