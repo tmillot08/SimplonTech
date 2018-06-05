@@ -21,7 +21,7 @@
 
       <h1>Nos produits</h1>
 
-      <h2>PC</h2>
+      <h2 id="pc">PC</h2>
 
       <div class="row">
         <div class="col-3">
@@ -30,7 +30,7 @@
             <div class="card-header p-5">Alienware M17x</div>
             <div class="image_card1 card_image"></div>
             <div class="card-body text-left p-4">
-              Nouvelle déclinaison 2012 de l'Alienware M17x chez Dell. Ce PC portable à écran 17,3 pouces pensé pour les joueurs nomades en manque de confort
+              Nouvelle déclinaison 2012 de l'Alienware M17x chez Dell. Ce PC portable à écran 17,3 pouces pensé pour leperipheriques joueurs nomades en manque de confort
               </div>
               <div class="card-footer pt-4 pb-4">999€90</div>
               </a>
@@ -79,7 +79,7 @@
 
       </div>
 
-      <h2>Cartes graphiques</h2>
+      <h2 id="carte_graphique">Cartes graphiques</h2>
 
       <div class="row">
         <div class="col-3">
@@ -137,7 +137,7 @@
 
       </div>
 
-      <h2>Périphériques</h2>
+      <h2 id="peripherique">Périphériques</h2>
 
       <div class="row">
         <div class="col-3">

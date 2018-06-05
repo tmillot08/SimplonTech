@@ -1,0 +1,17 @@
+@import "../../css/reset.css";
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+
+.container_presentation {
+  width: 60%;
+  margin: auto;
+  margin-top: 5%;
+  background-color: #ccc;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.img_text {
+  display: flex;
+  justify-content: space-between;
+}
