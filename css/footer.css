@@ -42,20 +42,33 @@ footer span {
   display: flex;
   flex-direction: column;
   margin-top: 20px;
-  margin-left: 82%;
-  margin-right: 20px;
+  margin-left: 95%;
+  position: absolute;
 }
 
 .navFooter{
   align-self: flex-start;
 }
 
-.logo{
+.logotech{
+    margin-left: 32%;
+    margin-top: 50px;
+}
+
+.logotech p:nth-child(2){
+  margin-left: 55%;
+}
+
+.logotech p{
+  font-size: 5.0rem;
 
 }
+
+
 
 #copyright{
   align-self: flex-end;
   margin-top: auto;
   margin-right: 10px;
+  margin-bottom: 10px;
 }
