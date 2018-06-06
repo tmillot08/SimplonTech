@@ -38,6 +38,7 @@ li{
 
 .title{
   font-family: 'Righteous', cursive;
+  color: ;
   font-size: 6rem;
 }
 
@@ -143,8 +144,8 @@ footer a {
   color: inherit;
 }
 footer a:hover{
-  color: grey;
-  text-decoration: underline;
+  color: grey !important;
+  text-decoration: underline !important;
 }
 
 footer{
