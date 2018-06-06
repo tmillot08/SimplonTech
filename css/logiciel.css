@@ -1,79 +1,60 @@
-.mainlog {
-    text-align: center;
-    width: 100%;
-    height: 100%;
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     background-color: #FFEAD0;
-    position: absolute;
 }
 
-.logbox {
-    height: 150px;
-    width: 90%;
-    text-align: center;
-    position: absolute;
+.logiCard {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin: auto;
     border: 1px solid #0D0630;
-    margin-left: 5%;
-    margin-top: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
-.pictbox {
-    position: absolute;
-    height: 150px;
-    width: 150px;
-    top: 0;
-    left: 0;
+.txt {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 60%;
 }
 
-.textbox {
-    position: absolute;
-    height: 150px;
-    width: calc(90% - 300px);
-    top: 0;
-    left: 150px;
-    padding-top: 10px;
-}
-
-.btninfo {
-    height: 50px;
-    width: 120px;
-    border: 5px ridge #AA0000;
-    background-color: #FF0000;
-    position: absolute;
+.btn {
+    position: relative;
+    height: 100px;
+    width: 110px;
+    border: 1px solid #274156;
+    background-color: #274156;
     top: 10px;
     right: 10px;
-}
-
-.btnach {
-    height: 50px;
-    width: 120px;
-    border: 5px ridge #AA0000;
-    background-color: #FF0000;
-    position: absolute;
-    bottom: 10px;
-    right: 10px;
-}
-
-.btnt {
-    padding-top: 15px;
-}
-
-.logbox:hover {
-    display: block;
-    height: 150px;
-    width: 90%;
+    margin-left: 10px;
     text-align: center;
-    position: absolute;
-    border: 1px solid #0D0630;
-    margin-left: 7.5%;
-    margin-top: 15px;
 }
 
-.btninfo:hover {
-    border: 5px ridge #00FF00;
-    background-color: #00AA00;
+.logiInfo {
+    display: inline-flex;
 }
 
-.btnach:hover {
-    border: 5px ridge #00FF00;
-    background-color: #00AA00;
+.icoach {
+    font-size: 3rem;
+}
+
+.icoinf {
+    font-size: 4rem;
+}
+
+.logiCard:hover {
+    background-color: #FFFAE0;
+}
+
+.pict {
+    width: 150px;
+    height: 150px;
+}
+
+.btn:hover {
+    border: 1px solid #605856;
+    background-color: #605856;
 }

@@ -6,35 +6,12 @@
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/support.css">
-    <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   </head>
   <body>
 
     <header>
-      <div id="ban">
-        <div class="center">
-          <div class="title">Simplon Tech</div>
-        </div>
-      </div>
-
-      <nav>
-        <ul>
-          <li>
-            <a href="#" class="fa fa-home fa-3x active selectNav" id="left" ></a>
-          </li>
-          <li class="prod">
-            <a href="#" class=" selectNav">Nos Produits</a>
-            <div class="deroule" id="left">
-              <a href="#">Hardware</a>
-              <a href="#">Software</a>
-            </div>
-          </li>
-          <li> <a href="#" class="selectNav">Qui somme nous ?</a></li>
-          <li> <a href="#" class="selectNav"> Support</a> </li>
-          <li>  <a href="#" class="selectNav">Contact</a></li>
-        </ul>
-      </nav>
+      <?php include("../html/header.html"); ?>
     </header>
 
     <main class="supportMain">
@@ -62,27 +39,7 @@
     </main>
 
     <footer>
-      <div class="navLogo">
-        <div class ="navFooter">
-          <ul><p>Sommaire:</p>
-            <a href=""><li>Accueil</li></a>
-            <a href=""><li>Nos produit</li></a>
-            <a href=""><li>Support</li></a>
-            <a href=""><li>Qui somme nous</li></a>
-            <a href=""><li>Contact</li></a>
-          </ul>
-        </div>
-        <div class = "logotech">
-          <p>Simplon</p>
-          <p>Tech</p>
-        </div>
-        <div class="groupeLogo">
-          <span class="logo fab fa-facebook-square fa-5x"></span>
-          <span class="logo fab fa-twitter-square fa-5x"></span>
-          <span class="logo fab fa-youtube-square fa-5x"></span>
-        </div>
-    </div>
-    <p id="copyright">©Simplon Tech</p>
+      <?php include("../html/footer.html"); ?>
     </footer>
     <script type="text/javascript" src="../js/selecteur.js"></script>
   </body>
