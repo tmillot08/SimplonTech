@@ -1,13 +1,35 @@
 .circle{
   height: 50px;
   width:50px;
-  background-color: #274156;
+  background-color: #0d0630;
   border-radius: 50%;
   color: white;
   padding-top:8px;
 }
 
 .center{
+  justify-content: center;
+  flex-direction: column;
+}
+
+.c{
   display: flex;
   justify-content: center;
+}
+
+.btn{
+  height: 30px;
+  background-color: #0d0630;
+  font-size: 1.6rem;
+  color: white;
+}
+
+.accueil .card{
+  background-color: silver;
+}
+
+.accueil .b{
+  margin-top: 30px;
+  background-color: #0d0630;
+  color:white;
 }
