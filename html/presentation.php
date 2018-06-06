@@ -4,7 +4,6 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="../css/presentation.css">
     <link rel="stylesheet" href="../css/style.css">
-
     <title>Presentation</title>
   </head>
   <body>

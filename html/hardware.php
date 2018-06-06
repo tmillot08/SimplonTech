@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="css/hardware.css">
+    <link rel="stylesheet" href="../css/hardware.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -34,6 +34,7 @@
               </div>
               <div class="card-footer pt-4 pb-4">999€90</div>
               </a>
+              <button type="button" class="btn btn-default"><span class="text_button">Ajouter au panier</span></button>
             </div>
           </div>
 
@@ -48,6 +49,7 @@
                 </div>
                 <div class="card-footer pt-4 pb-4">799€90</div>
                 </a>
+                <button type="button" class="btn btn-default"><span class="text_button">Ajouter au panier</span></button>
               </div>
             </div>
 
@@ -61,6 +63,7 @@
                   </div>
                   <div class="card-footer pt-4 pb-4">599€90</div>
                   </a>
+                  <button type="button" class="btn btn-default"><span class="text_button">Ajouter au panier</span></button>
                 </div>
               </div>
 
@@ -74,6 +77,7 @@
                     </div>
                     <div class="card-footer pt-4 pb-4">1299€90</div>
                     </a>
+                    <button type="button" class="btn btn-default"><span class="text_button">Ajouter au panier</span></button>
                   </div>
                 </div>
 
@@ -92,6 +96,7 @@
               </div>
               <div class="card-footer pt-4 pb-4">1099€90</div>
               </a>
+              <button type="button" class="btn btn-default"><span class="text_button">Ajouter au panier</span></button>
             </div>
           </div>
 
@@ -106,6 +111,7 @@
                 </div>
                 <div class="card-footer pt-4 pb-4">729€90</div>
                 </a>
+                <button type="button" class="btn btn-default"><span class="text_button">Ajouter au panier</span></button>
               </div>
             </div>
 
@@ -119,6 +125,7 @@
                   </div>
                   <div class="card-footer pt-4 pb-4">279€90</div>
                   </a>
+                  <button type="button" class="btn btn-default"><span class="text_button">Ajouter au panier</span></button>
                 </div>
               </div>
 
@@ -132,6 +139,7 @@
                     </div>
                     <div class="card-footer pt-4 pb-4">329€90</div>
                     </a>
+                    <button type="button" class="btn btn-default"><span class="text_button">Ajouter au panier</span></button>
                   </div>
                 </div>
 
@@ -150,6 +158,7 @@
               </div>
               <div class="card-footer pt-4 pb-4">139€90</div>
               </a>
+              <button type="button" class="btn btn-default"><span class="text_button">Ajouter au panier</span></button>
             </div>
           </div>
 
@@ -164,6 +173,7 @@
                 </div>
                 <div class="card-footer pt-4 pb-4">99€90</div>
                 </a>
+                <button type="button" class="btn btn-default"><span class="text_button">Ajouter au panier</span></button>
               </div>
             </div>
 
@@ -177,6 +187,7 @@
                   </div>
                   <div class="card-footer pt-4 pb-4">279€90</div>
                   </a>
+                  <button type="button" class="btn btn-default"><span class="text_button">Ajouter au panier</span></button>
                 </div>
               </div>
 
@@ -190,6 +201,7 @@
                     </div>
                     <div class="card-footer pt-4 pb-4">199€90</div>
                     </a>
+                    <button type="button" class="btn btn-default"><span class="text_button">Ajouter au panier</span></button>
                   </div>
                 </div>
 
