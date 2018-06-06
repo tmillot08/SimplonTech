@@ -15,7 +15,7 @@ switch (nomFichier) {
   case "presentation.php":
     indextarget = 2;
     break;
-  case "support.html":
+  case "support.php":
     indextarget = 3;
     break;
   case "contact.php":
