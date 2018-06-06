@@ -139,6 +139,10 @@ header li a:hover:not(.test){
 footer a {
   color: inherit;
 }
+footer a:hover{
+  color: grey;
+  text-decoration: underline;
+}
 
 footer{
   display: flex;
