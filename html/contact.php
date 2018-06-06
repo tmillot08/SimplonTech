@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>CONTACT</title>
+    <title>Contact</title>
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/header.css">
@@ -23,7 +23,7 @@
             <nav>
                 <ul>
                     <li>
-                        <a href="#" class="fa fa-home fa-3x active selectNav" id="left"></a>
+                        <a href="#" class="fa fa-home fa-3x selectNav" id="left"></a>
                     </li>
                     <li class="prod">
                         <a href="#" class=" selectNav">Nos Produits</a>
@@ -34,7 +34,7 @@
                     </li>
                     <li> <a href="#" class="selectNav">Qui somme nous ?</a></li>
                     <li> <a href="#" class="selectNav"> Support</a> </li>
-                    <li> <a href="#" class="selectNav">Contact</a></li>
+                    <li> <a href="#" class="selectNav active">Contact</a></li>
                 </ul>
             </nav>
 
