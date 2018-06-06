@@ -27,7 +27,7 @@
           <li class="prod">
             <a href="../html/logiciel.php" class=" selectNav">Nos Produits</a>
             <div class="deroule" id="left">
-              <a href="../html/accueil.html">Hardware</a>
+              <a href="../html/hardware.php">Hardware</a>
               <a href="../html/logiciel.php">Software</a>
             </div>
           </li>
