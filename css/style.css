@@ -86,7 +86,6 @@ header li a:hover:not(.test){
     background-color: #274156;
     min-width: 156px;
     height: 116px;
-    top: 360px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     display: none;
     z-index: 1;
@@ -137,9 +136,6 @@ header li a:hover:not(.test){
   opacity: 0.8;
 }
 /************************FOOTER**************************/
-footer{
-  font-family: "Righteous" , cursive;
-}
 footer a {
   color: inherit;
 }
