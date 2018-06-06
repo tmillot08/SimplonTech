@@ -61,10 +61,10 @@ header li {
 
 
 header li a {
-    height: 60px;
+    height: 60px !important;
     display: block;
     color: #ffead0;
-    text-align: center;
+    text-align: center !important;
     padding: 14px 16px;
     text-decoration: none;
     font-family: 'Righteous', cursive;
@@ -82,6 +82,7 @@ header li a:hover:not(.test){
 
 .deroule {
     position: absolute;
+    top: 360px;
     background-color: #274156;
     min-width: 156px;
     height: 116px;
