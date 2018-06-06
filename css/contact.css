@@ -50,3 +50,12 @@
 footer {
     margin-top: 500px;
 }
+
+.ico {
+    color: #0D0630;
+    font-size: 3rem;
+}
+
+.ico:hover {
+    color: #33658A;
+}
