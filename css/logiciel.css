@@ -27,10 +27,12 @@ main {
     width: 110px;
     border: 1px solid #274156;
     background-color: #274156;
+    color: #FFEAD0;
     top: 10px;
     right: 10px;
     margin-left: 10px;
     text-align: center;
+    border-radius: 5px;
 }
 
 .logiInfo {
