@@ -6,7 +6,6 @@
     <title>Contact</title>
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/contact.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 </head>
@@ -20,23 +19,23 @@
                 </div>
             </div>
 
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#" class="fa fa-home fa-3x selectNav" id="left"></a>
-                    </li>
-                    <li class="prod">
-                        <a href="#" class=" selectNav">Nos Produits</a>
-                        <div class="deroule" id="left">
-                            <a href="#"> Hardware</a>
-                            <a href="#">Software</a>
-                        </div>
-                    </li>
-                    <li> <a href="#" class="selectNav">Qui somme nous ?</a></li>
-                    <li> <a href="#" class="selectNav"> Support</a> </li>
-                    <li> <a href="#" class="selectNav active">Contact</a></li>
-                </ul>
-            </nav>
+      <nav id="navfix">
+        <ul>
+          <li>
+            <a href="../html/accueil.html" class="fa fa-home fa-3x active selectNav" id="left" ></a>
+          </li>
+          <li class="prod">
+            <a href="../html/logiciel.php" class=" selectNav">Nos Produits</a>
+            <div class="deroule" id="left">
+              <a href="../html/accueil.html">Hardware</a>
+              <a href="../html/logiciel.php">Software</a>
+            </div>
+          </li>
+          <li> <a href="../html/presentation.php" class="selectNav">Qui somme nous ?</a></li>
+          <li> <a href="../html/support.php" class="selectNav"> Support</a> </li>
+          <li>  <a href="../html/contact.php" class="selectNav">Contact</a></li>
+        </ul>
+      </nav>
 
 
         <script type="text/javascript" src="../js/selecteur.js"></script>
@@ -66,26 +65,15 @@
     <footer>
         <!--?php include 'footer.html'?-->
         <div class="navLogo">
-            <div class="navFooter">
-                <ul>
-                    <p>Sommaire:</p>
-                    <a href="">
-                        <li>Accueil</li>
-                    </a>
-                    <a href="">
-                        <li>Nos produit</li>
-                    </a>
-                    <a href="">
-                        <li>Support</li>
-                    </a>
-                    <a href="">
-                        <li>Qui somme nous</li>
-                    </a>
-                    <a href="">
-                        <li>Contact</li>
-                    </a>
-                </ul>
-            </div>
+        <div class ="navFooter">
+          <ul><p>Sommaire:</p>
+            <a href="../html/accueil.html"><li>Accueil</li></a>
+            <a href="../html/hardware.php"><li>Nos produit</li></a>
+            <a href="../html/support.php"><li>Support</li></a>
+            <a href="../html/presentation.php"><li>Qui somme nous</li></a>
+            <a href="../html/contact.php"><li>Contact</li></a>
+          </ul>
+        </div>
             <div class="logotech">
                 <p>Simpl<span class="fas fa-cog fa-spin"></span>n</p>
                 <p>Tech</p>
