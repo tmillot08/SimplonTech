@@ -137,6 +137,9 @@ header li a:hover:not(.test){
   opacity: 0.8;
 }
 /************************FOOTER**************************/
+footer{
+  font-family: "Righteous" , cursive;
+}
 footer a {
   color: inherit;
 }
