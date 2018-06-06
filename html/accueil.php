@@ -16,8 +16,6 @@
     </header>
 
     <main class="accueil">
-
-
     <div class="container-fluid c">
     <div id="carousel" class="carousel slide" data-ride="carousel" style="width:980px;">
       <ul class="carousel-indicators">
