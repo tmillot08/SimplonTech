@@ -48,7 +48,7 @@ header li a {
   border-left: 2px solid #ffead0;
 }
 
-header li a:hover:not(.active){
+header li a:hover:not(.test){
     background-color: black;
 }
 

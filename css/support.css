@@ -20,6 +20,7 @@ form{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  min-width: 300px;
   width: 80%;
   margin: auto;
   margin-top: 50px;
@@ -59,11 +60,12 @@ form p{
 
 form fieldset *:not([type="submit"]){
   opacity: 0.5;
+  width: auto;
 }
 
 form input[type="submit"]{
   height: 38px;
-  width: 30%;
+  min-width: 30%;
   margin: auto;
   margin-top: 20px;
   background-color: #0d0630;
