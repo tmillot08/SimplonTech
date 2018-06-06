@@ -1,4 +1,4 @@
-.circle{
+.accueil .circle{
   height: 50px;
   width:50px;
   background-color: #0d0630;
@@ -7,17 +7,17 @@
   padding-top:8px;
 }
 
-.center{
+.accueil .center{
   justify-content: center;
   flex-direction: column;
 }
 
-.c{
+.accueil .c{
   display: flex;
   justify-content: center;
 }
 
-.btn{
+.accueil .btn{
   height: 30px;
   background-color: #0d0630;
   font-size: 1.6rem;
