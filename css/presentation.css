@@ -2,16 +2,59 @@
 @import url('https://fonts.googleapis.com/css?family=Righteous');
 
 .container_presentation {
-  width: 60%;
+  width: 50%;
   margin: auto;
   margin-top: 5%;
-  background-color: #ccc;
+  margin-bottom: 5%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  padding: 3% 5% 5% 5%;
+  box-shadow: inset 0 0 20px rgba(0,0,0,0.5);
 }
 
-.img_text {
+.img_text1 {
   display: flex;
-  justify-content: space-between;
+}
+
+.img_text2 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.container_presentation h1 {
+  text-align: center;
+  color: #0d0630;
+  width: 35%;
+  align-self: center;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px 5px black;
+  margin-bottom: 20px;
+}
+
+.container_presentation p {
+  padding: 30px;
+  margin-top: 20px;
+  line-height: 25px;
+}
+
+.container_presentation .p_middle {
+  text-align: left;
+}
+
+.container_presentation .p_right {
+  text-align: right;
+  width: 50%;
+}
+
+.container_presentation .p_left {
+  text-align: left;
+  width: 50%;
+}
+
+.container_presentation img {
+  max-width: 30%;
+  border-radius: 15px;
+  border: 2px solid black;
 }
