@@ -13,39 +13,15 @@
 	<?php include 'header.html'?>
 </header>
 <main>
-		<div class="mainlog">
-            <div class="logbox">
-                <div class="pictbox">
+            <div class="logiCard">
+                <div class="logiInfo">
                     <img src="../img/vign.png">
-                </div>
-                <div class="textbox">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sollicitudin sit amet tortor in scelerisque. Fusce in eleifend metus. Maecenas neque magna, fringilla in feugiat sed, ornare eu ligula. Proin tristique ultricies metus, vel ornare tellus ullamcorper a. Nam cursus dui vel dolor tempor aliquet. Suspendisse tincidunt auctor neque. Vivamus facilisis lacinia sem, non lacinia ex finibus et. In hac habitasse platea dictumst. Proin pharetra dolor eget odio facilisis, nec maximus turpis blandit.</p>
-                </div>
-                <div class="btninfo">
-                    <p class="btnt">Plus d'infos</p>
-                </div>
-                <div class="btnach">
-                    <p class="btnt">Acheter</p>
+                    <p class="txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, veniam? Molestias obcaecati iste deleniti eaque sint consectetur quo nam, beatae quasi debitis, officiis ex quia similique dicta omnis suscipit fuga.</p>
+                    <p class="btn">Acheter<br><br><i class="fas fa-cart-arrow-down icoach"></i><br><br>>20.00€<</p>
+                    <p class="btn">Plus d'Info<br><br><i class="fas fa-file-alt icoinf"></i></p>
                 </div>
             </div>
-        <div class="mainlog">
-            <div class="logbox">
-                <div class="pictbox">
-                    <img src="img/vign.png">
-                </div>
-                <div class="textbox">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sollicitudin sit amet tortor in scelerisque. Fusce in eleifend metus. Maecenas neque magna, fringilla in feugiat sed, ornare eu ligula. Proin tristique ultricies metus, vel ornare tellus ullamcorper a. Nam cursus dui vel dolor tempor aliquet. Suspendisse tincidunt auctor neque. Vivamus facilisis lacinia sem, non lacinia ex finibus et. In hac habitasse platea dictumst. Proin pharetra dolor eget odio facilisis, nec maximus turpis blandit.</p>
-                </div>
-                <div class="btninfo">
-                    <p class="btnt">Plus d'infos</p>
-                </div>
-                <div class="btnach">
-                    <p class="btnt">Acheter</p>
-                </div>
-            </div>
-
-            
-        </div>
+        
 						</main>
 			<footer>
 					<?php include 'footer.html'?>
