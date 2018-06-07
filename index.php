@@ -6,15 +6,15 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/reset.css">
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/accueil.css">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/accueil.css">
 
 
   </head>
   <body>
     <header>
-      <?php include ('../html/header.html') ?>
+      <?php include ('html/header.html') ?>
     </header>
 
     <main class="accueil">
@@ -81,7 +81,7 @@
             </div>
           </div>
           <div class="card">
-            <img class="card-img-top" src="../img/compo.png" alt="composant" style="width: 250px;">
+            <img class="card-img-top" src="img/compo.png" alt="composant" style="width: 250px;">
             <div class="card-body">
               <a href="#" class="btn btn-block"><p>Les composants</p></a>
               <ul >
@@ -93,7 +93,7 @@
             </div>
           </div>
           <div class="card">
-            <img class="card-img-top" src="../img/casque.png" alt="casque" style="width: 250px;" >
+            <img class="card-img-top" src="img/casque.png" alt="casque" style="width: 250px;" >
             <div class="card-body">
               <a href="#" class="btn btn-block"> <p>Les Périphérique</p></a>
               <ul>
@@ -112,30 +112,30 @@
       </div>
       <div class="row">
         <div class="col-lg-3">
-          <img src="../img/intel.png" alt="" style="width:200px;">
+          <img src="img/intel.png" alt="" style="width:200px;">
         </div>
         <div class="col-lg-3">
-          <img src="../img/geforce.png" alt="" style="width:200px;">
+          <img src="img/geforce.png" alt="" style="width:200px;">
         </div>
         <div class="col-lg-3">
-          <img src="../img/cooler.png" alt="" style="width:200px;">
+          <img src="img/cooler.png" alt="" style="width:200px;">
         </div>
         <div class="col-lg-3">
-          <img src="../img/asus.png" alt="" style="width:200px;">
+          <img src="img/asus.png" alt="" style="width:200px;">
         </div>
       </div>
       <div class="row">
         <div class="col-lg-3">
-          <img src="../img/Ryzen.png" alt="" style="width:200px;">
+          <img src="img/Ryzen.png" alt="" style="width:200px;">
         </div>
         <div class="col-lg-3">
-          <img  src="../img/amd.png" alt="" style="width:200px;">
+          <img  src="img/amd.png" alt="" style="width:200px;">
         </div>
         <div class="col-lg-3">
-          <img src="../img/corsair.png" alt="" style="width:200px;">
+          <img src="img/corsair.png" alt="" style="width:200px;">
         </div>
         <div class="col-lg-3">
-          <img src="../img/roc.png" alt="" style="width:200px;">
+          <img src="img/roc.png" alt="" style="width:200px;">
         </div>
       </div>
       <div class="row">
@@ -157,13 +157,13 @@
 
 
     <footer>
-      <?php include ('footer.html')?>
+      <?php include ('html/footer.html')?>
 
     </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src:"../js/selecteur.js"> </script>
+    <script type="text/javascript" src:"/js/selecteur.js"> </script>
 
 
 
