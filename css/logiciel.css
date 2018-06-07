@@ -65,5 +65,5 @@ main {
 .btn:hover {
     border: 1px solid #605856;
     background-color: #605856;
-    box-shadow: 0px 0px 10px #202020 inset;
+    box-shadow: 0px 0px 10px #000000 inset;
 }
