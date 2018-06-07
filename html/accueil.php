@@ -13,7 +13,7 @@
 
   </head>
   <body class="red">
-    <header>
+    <header class"">
       <?php include ('../html/header.html') ?>
     </header>
 
@@ -163,29 +163,10 @@
       <?php include ('footer.html')?>
 
     </footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">    </script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src:"../js/selecteur.js"> </script>
-    <script type="text/javascript">
-
-      window.onscroll = function() {scrollFunction()};
-
-      function scrollFunction() {
-          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-              document.getElementById("top").style.display = "block";
-          } else {
-              document.getElementById("top").style.display = "none";
-          };
-      };
-
-      $('#top').click(function(){
-        $('html').animate({scrollTop: 0}, 2000);
-      });
-      </script>
-
-
-
+    <script type="text/javascript" src="../js/accueil.js"></script>
+    <script type="text/javascript" src="../js/selecteur.js"> </script>
 
 
 
