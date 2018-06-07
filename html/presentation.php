@@ -40,5 +40,6 @@
     <footer>
       <?php include('footer.html') ?>
     </footer>
+    <script type="text/javascript" src="../js/selecteur.js"></script>
   </body>
 </html>
