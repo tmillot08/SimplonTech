@@ -12,6 +12,9 @@ switch (nomFichier) {
   case "hardware.php":
     indextarget = 1;
     break;
+  case "produit.php":
+      indextarget = 1;
+      break;
   case "presentation.php":
     indextarget = 2;
     break;
