@@ -55,6 +55,7 @@ main {
     border: 3px double #0D0630;
     margin-top: 4px;
     margin-bottom: 4px;
+    box-shadow: 0px 0px 10px #0D0630 inset;
 }
 
 .pict {
