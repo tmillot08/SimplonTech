@@ -10,6 +10,9 @@ html{
   font-size: 62.5%;
 }
 
+h3{
+  font-size:6rem;
+}
 h1{
   font-size: 4.6rem;
 }
@@ -38,10 +41,13 @@ li{
 
 .title{
   font-family: 'Righteous', cursive;
-  color: ;
-  font-size: 6rem;
+  color: #ffead0;
+  padding-top: 100px;
 }
 
+#tech{
+  margin-left:200px;
+}
 header ul {
     list-style-type: none;
     height: 60px;

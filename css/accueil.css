@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Righteous');
 
 .accueil{
+  margin-top:10px;
   font-family: "Righteous" , cursive;
 }
 .accueil .circle{
@@ -10,6 +11,7 @@
   border-radius: 50%;
   color: white;
   padding-top:8px;
+  line-height: 35px;
 }
 
 .accueil .center{
@@ -20,6 +22,7 @@
 .accueil .c{
   display: flex;
   justify-content: center;
+
 }
 
 .accueil .btn{
@@ -46,10 +49,28 @@
 }
 
 .accueil input[type=submit]{
+  cursor: pointer;
   width:160px;
   height: 30px;
   background-color: gray;
   border-radius: 20px;
   color: white;
   border-style: none;
+}
+#top {
+  position: fixed;
+  display: none;
+  bottom: 40px;
+  right: 80px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+.red{
+    background-color: #3c3838;
 }

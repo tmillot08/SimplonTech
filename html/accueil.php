@@ -12,7 +12,7 @@
 
 
   </head>
-  <body>
+  <body class="red">
     <header>
       <?php include ('../html/header.html') ?>
     </header>
@@ -47,8 +47,8 @@
 
 
     </div>
-    <div class="container-fluid center" style="width:980px;">
-      <div class="row " style="margin-top: 20px;">
+    <div class="container-fluid center" style="width:980px; background-color:white;">
+      <div class="row " style="padding-top:20px; padding-bottom:20px;">
         <div class="col-lg-3 text-center align-items-center">
           <i class="fas fa-laptop fa-2x circle"></i>
           <p>service garantit</p>
@@ -66,7 +66,7 @@
           <p>Reparer ou rembouser</p>
         </div>
       </div>
-      <div class="row">
+      <div class="row c">
         <div class="card-deck" style="width: 980px;">
           <div class="card">
             <img class="card-img-top" src="../img/pc.png" alt="pc" style="width: 250px;">
@@ -84,7 +84,7 @@
             <img class="card-img-top" src="../img/compo.png" alt="composant" style="width: 250px;">
             <div class="card-body">
               <a href="#" class="btn btn-block"><p>Les composants</p></a>
-              <ul >
+              <ul>
                 <li>Carte Graphique</li>
                 <li>Processeur</li>
                 <li>Carte mère</li>
@@ -110,7 +110,7 @@
       <div class="c b">
         <h1>Un grand choix de marque</h1>
       </div>
-      <div class="row">
+      <div class="row" style="margin-top:20px;">
         <div class="col-lg-3">
           <img src="../img/intel.png" alt="" style="width:200px;">
         </div>
@@ -143,7 +143,7 @@
           <div class="c b">
             <h2>Restez Informé</h2>
           </div>
-          <form class="Newsleter" action="index.html" method="post">
+          <form class="Newsleter" action="index.html" method="post" style="margin-bottom: 20px;">
             <p>Abonnez-vous et recevez nos promotion et des offres exclusives:</p>
             <input type="email" name="mail" placeholder="votre email"> <input type="submit" name="" value="Je m'abonne">
 
@@ -153,6 +153,9 @@
 
       </div>
     </div>
+    <div class="top">
+    <i class="fas fa-arrow-up fa-3x" id="top"></i>
+    </div>
     </main>
 
 
@@ -160,10 +163,29 @@
       <?php include ('footer.html')?>
 
     </footer>
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
     <script type="text/javascript" src:"../js/selecteur.js"> </script>
+    <script type="text/javascript">
+
+      window.onscroll = function() {scrollFunction()};
+
+      function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+              document.getElementById("top").style.display = "block";
+          } else {
+              document.getElementById("top").style.display = "none";
+          };
+      };
+
+      $('#top').click(function(){
+        $('html').animate({scrollTop: 0}, 2000);
+      });
+      </script>
+
+
+
 
 
 
