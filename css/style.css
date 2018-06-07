@@ -41,7 +41,7 @@ li{
 
 .title{
   font-family: 'Righteous', cursive;
-  color: #ffead0;
+  color: #ffead0 !important;
   padding-top: 100px;
 }
 
