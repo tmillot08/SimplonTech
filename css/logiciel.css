@@ -12,8 +12,8 @@ main {
     width: 85%;
     margin: auto;
     border: 1px solid #0D0630;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 6px;
+    margin-bottom: 6px;
 }
 
 .txt {
@@ -53,6 +53,8 @@ main {
 .logiCard:hover {
     background-color: #FFFAE0;
     border: 3px double #0D0630;
+    margin-top: 4px;
+    margin-bottom: 4px;
 }
 
 .pict {
