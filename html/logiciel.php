@@ -56,6 +56,7 @@
 			<footer>
 					<?php include 'footer.html'?>
 					
-			</footer>
+            </footer>
+            <script type="text/javascript" src="../js/selecteur.js"></script>
 	</body>
 </html> 
