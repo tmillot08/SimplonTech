@@ -129,7 +129,7 @@
           <img src="../img/Ryzen.png" alt="" style="width:200px;">
         </div>
         <div class="col-lg-3">
-          <img src="../img/amd.png" alt="" style="width:200px;">
+          <img  src="../img/amd.png" alt="" style="width:200px;">
         </div>
         <div class="col-lg-3">
           <img src="../img/corsair.png" alt="" style="width:200px;">
@@ -138,8 +138,23 @@
           <img src="../img/roc.png" alt="" style="width:200px;">
         </div>
       </div>
+      <div class="row">
+        <div class="col-lg-7">
+          <div class="c b">
+            <h2>Restez Informé</h2>
+          </div>
+          <form class="Newsleter" action="index.html" method="post">
+            <p>Abonnez-vous et recevez nos promotion et des offres exclusives:</p>
+            <input type="email" name="mail" placeholder="votre email"> <input type="submit" name="" value="Je m'abonne">
+
+          </form>
+
+        </div>
+
+      </div>
     </div>
     </main>
+
 
     <footer>
       <?php include ('footer.html')?>

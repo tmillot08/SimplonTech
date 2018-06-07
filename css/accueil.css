@@ -38,3 +38,18 @@
   background-color: #0d0630;
   color:white;
 }
+
+.accueil input[type=email]{
+  margin-top: 10px;
+  width:330px;
+  height: 30px;
+}
+
+.accueil input[type=submit]{
+  width:160px;
+  height: 30px;
+  background-color: gray;
+  border-radius: 20px;
+  color: white;
+  border-style: none;
+}
