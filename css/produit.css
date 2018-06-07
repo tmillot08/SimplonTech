@@ -1,6 +1,7 @@
 a{
   text-decoration: none;
   color: inherit;
+  border: 0px solid black;
 }
 
 .produitMain{
