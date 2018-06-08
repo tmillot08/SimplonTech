@@ -23,7 +23,7 @@
       <div class="row">
         <div class="col-3">
           <div class="card text-center">
-            <a href="https://google.com">
+            <a href="alienware.php">
             <div class="card-header p-5">Alienware M17x</div>
             <div class="image_card1 card_image"></div>
             <div class="card-body text-left p-4">
