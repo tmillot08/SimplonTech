@@ -14,7 +14,7 @@
       <?php include('header.html') ?>
     </header>
     <main class="main_produits">
-    <div class="container">
+    <div class="container-fluid">
 
       <h1>Hardware</h1>
 
