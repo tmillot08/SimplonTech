@@ -59,7 +59,6 @@
 }
 #top {
   position: fixed;
-  display: none;
   bottom: 40px;
   right: 80px;
   z-index: 99;

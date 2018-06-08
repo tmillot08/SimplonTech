@@ -7,7 +7,3 @@ function scrollFunction() {
         document.getElementById("top").style.display = "none";
     };
 };
-
-$('#top').click(function(){
-  $('html').animate({scrollTop: 0}, 2000);
-});
