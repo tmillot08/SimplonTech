@@ -1,4 +1,4 @@
-a{
+.produitMain a{
   text-decoration: none;
   color: inherit;
   border: 0px solid black;
@@ -10,7 +10,7 @@ a{
   flex-direction: column;
 }
 
-h1{
+.produitMain h1{
   margin: auto;
   margin-top: 50px;
 }
@@ -18,7 +18,7 @@ h1{
 .produitMain div{
   margin: auto;
   display: inline-flex;
-  max-width: 40%;
+  max-width: 50%;
   margin-top: 30px;
   margin-bottom: 50px;
 }
@@ -28,7 +28,6 @@ h1{
   display: inline-flex;
   flex-direction: column;
   justify-content: center;
-  width: auto;
   padding: 10px;
   border: 4px groove black;
   border-radius: 10px;
@@ -49,13 +48,37 @@ h1{
   background-color: lightblue;
 }
 
-.produitMain div h2{
+.produitMain div a{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: auto;
+}
+
+.produitMain div a h2{
   margin: auto;
   margin-top: 20px;
   margin-bottom: 30px;
 }
 
-.produitMain div span{
+.produitMain div div a span{
   margin: auto;
-  margin-left: 30%;
+  width: auto;
+}
+
+@media (max-width: 900px) {
+  .produitMain div{
+    flex-direction: column;
+    max-width: 60%;
+    font-size: 1.6rem;
+  }
+  .produitMain div div span{
+    margin: auto;
+    margin-left: 0%;
+  }
+
+  .produitMain div div a span{
+    margin: auto;
+    font-size: 400%;
+  }
 }

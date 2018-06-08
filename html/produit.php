@@ -17,14 +17,14 @@
       <div>
         <div class="hardware">
           <a href="hardware.php">
-          <span class="fas fa-laptop fa-10x"></span>
+          <span class="fas fa-laptop fa-8x"></span>
           <h2>Hardware</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           </a>
         </div>
         <div class="software">
           <a href="logiciel.php">
-          <span class="fas fa-file-archive fa-10x"></span>
+          <span class="fas fa-file-archive fa-9x"></span>
           <h2>Software</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </a>
