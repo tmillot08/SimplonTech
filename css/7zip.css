@@ -1,0 +1,145 @@
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.logiCard {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    border: 1px solid #0D0630;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.txt {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    width: 99%;
+    align-self: center;
+    text-align: center;
+}
+
+.txt2 {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 99%;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.txt3 {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 99%;
+    text-align: left;
+    font-size: 2rem;
+}
+
+.btn {
+    position: relative;
+    height: 100px;
+    width: 110px;
+    border: 1px solid #274156;
+    background-color: #274156;
+    color: #FFEAD0;
+    top: 10px;
+    right: 10px;
+    margin-left: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btna {
+    left: -10px;
+}
+
+.logiInfo {
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.icoach {
+    font-size: 3rem;
+}
+
+.icoinf {
+    font-size: 4rem;
+}
+
+.pict {
+    width: 30%;
+    height: auto;
+    margin: auto;
+}
+
+.pict2 {
+    width: 100%;
+    margin: auto;
+}
+
+.btn:hover {
+    border: 1px solid lightgrey;
+    background-color: lightgray;
+    box-shadow: 0px 0px 10px #000000 inset;
+    color: black;
+}
+
+#rtn:hover {
+    border: 1px solid lightgrey;
+    background-color: lightgray;
+    box-shadow: 0px 0px 10px #000000 inset;
+    color: black;
+}
+
+#bar:link {
+    text-decoration: none;
+    color: #FFEAD0;
+}
+
+#bar:link:hover {
+    text-decoration: none;
+    color: black;
+}
+
+#bar:visited:hover {
+    text-decoration: none;
+    color: black;
+}
+
+#bar:visited {
+    color: #FFEAD0;
+}
+
+.onglet {
+    color: #FFEAD0;
+    padding: 20px;
+    border: 1px solid #274156;
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    background-color: #274156;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.onglet h2 {
+    font-size: 2.7rem;
+}
+
+.framework {
+    width: 80%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
