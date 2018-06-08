@@ -6,15 +6,15 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/reset.css">
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/accueil.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/accueil.css">
 
 
   </head>
   <body class="red">
     <header class"">
-      <?php include ('../html/header.html') ?>
+      <?php include ('./html/header.html') ?>
     </header>
 
     <main class="accueil">
@@ -28,16 +28,16 @@
 
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="../img/promo.png" alt="Chicago" style="width:100%;"  >
+          <img src="./img/promo.png" alt="Chicago" style="width:100%;"  >
 
         </div>
 
         <div class="carousel-item">
-          <img src="../img/promo2.png" alt="Promo2" style="width:100%;"  >
+          <img src="./img/promo2.png" alt="Promo2" style="width:100%;"  >
         </div>
 
         <div class="carousel-item">
-          <img src="../img/promo3.png" alt="New york" style="width:100%;" >
+          <img src="./img/promo3.png" alt="New york" style="width:100%;" >
         </div>
     </div>
 
@@ -126,16 +126,16 @@
       </div>
       <div class="row">
         <div class="col-lg-3">
-          <img src="../img/Ryzen.png" alt="" style="width:200px;">
+          <img src="./img/Ryzen.png" alt="" style="width:200px;">
         </div>
         <div class="col-lg-3">
-          <img  src="../img/amd.png" alt="" style="width:200px;">
+          <img  src="./img/amd.png" alt="" style="width:200px;">
         </div>
         <div class="col-lg-3">
-          <img src="../img/corsair.png" alt="" style="width:200px;">
+          <img src="./img/corsair.png" alt="" style="width:200px;">
         </div>
         <div class="col-lg-3">
-          <img src="../img/roc.png" alt="" style="width:200px;">
+          <img src="./img/roc.png" alt="" style="width:200px;">
         </div>
       </div>
       <div class="row">
@@ -168,13 +168,13 @@
 
 
     <footer>
-      <?php include ('footer.html')?>
+      <?php include ('./html/footer.html')?>
 
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">    </script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="../js/accueil.js"></script>
-    <script type="text/javascript" src="../js/selecteur.js"> </script>
+    <script type="text/javascript" src="./js/accueil.js"></script>
+    <script type="text/javascript" src="./js/selecteur.js"> </script>
 
 
 
