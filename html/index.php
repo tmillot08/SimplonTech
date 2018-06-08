@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/accueil.css">
 
 
   </head>
@@ -112,30 +111,30 @@
       </div>
       <div class="row" style="margin-top:20px;">
         <div class="col-lg-3">
-          <img src="../img/intel.png" alt="" style="width:200px;">
+          <img src="../img/intel.png" alt="" style="max-width:200px;">
         </div>
         <div class="col-lg-3">
-          <img src="../img/geforce.png" alt="" style="width:200px;">
+          <img src="../img/geforce.png" alt="" style="max-width:200px;">
         </div>
         <div class="col-lg-3">
-          <img src="../img/cooler.png" alt="" style="width:200px;">
+          <img src="../img/cooler.png" alt="" style="max-width:200px;">
         </div>
         <div class="col-lg-3">
-          <img src="../img/asus.png" alt="" style="width:200px;">
+          <img src="../img/asus.png" alt="" style="max-width:200px;">
         </div>
       </div>
       <div class="row">
         <div class="col-lg-3">
-          <img src="../img/Ryzen.png" alt="" style="width:200px;">
+          <img src="../img/Ryzen.png" alt="" style="max-width:200px;">
         </div>
         <div class="col-lg-3">
-          <img  src="../img/amd.png" alt="" style="width:200px;">
+          <img  src="../img/amd.png" alt="" style="max-width:200px;">
         </div>
         <div class="col-lg-3">
-          <img src="../img/corsair.png" alt="" style="width:200px;">
+          <img src="../img/corsair.png" alt="" style="max-width:200px;">
         </div>
         <div class="col-lg-3">
-          <img src="../img/roc.png" alt="" style="width:200px;">
+          <img src="../img/roc.png" alt="" style="max-width:200px;">
         </div>
       </div>
       <div class="row">
