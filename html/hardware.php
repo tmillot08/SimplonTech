@@ -38,7 +38,7 @@
 
           <div class="col-3">
             <div class="card text-center">
-              <a href="https://google.com">
+              <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
               <div class="card-header p-5">Right pc</div>
               <div  class="image_card2 card_image"></div>
               <div class="card-body text-left p-4">

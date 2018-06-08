@@ -50,19 +50,19 @@
       <div class="row " style="padding-top:20px; padding-bottom:20px;">
         <div class="col-lg-3 text-center align-items-center">
           <i class="fas fa-laptop fa-2x circle"></i>
-          <p>service garantit</p>
+          <p>service garantie</p>
         </div>
         <div class="col-lg-3 text-center">
           <i class="fas fa-question fa-2x circle"></i>
-          <p>Qui somme nous ?</p>
+          <p>Qui sommes nous ?</p>
         </div>
         <div class="col-lg-3 text-center ">
           <i class="fas fa-phone-volume fa-2x circle"></i>
-          <p>Support technique rapide et éfficace</p>
+          <p>Support technique rapide et efficace</p>
         </div>
         <div class="col-lg-3 text-center">
           <i class="fas fa-euro-sign fa-2x circle"></i>
-          <p>Reparer ou rembouser</p>
+          <p>Reparé ou remboursé</p>
         </div>
       </div>
       <div class="row c">
@@ -94,7 +94,7 @@
           <div class="card">
             <img class="card-img-top" src="../img/casque.png" alt="casque" style="max-width: 250px;" >
             <div class="card-body">
-              <a href="#" class="btn btn-block"> <p>Les Périphérique</p></a>
+              <a href="#" class="btn btn-block"> <p>Les Périphériques</p></a>
               <ul>
                 <li>Ecran</li>
                 <li>Clavier</li>
@@ -107,7 +107,7 @@
       </div>
 
       <div class="c b">
-        <h1>Un grand choix de marque</h1>
+        <h1>Un grand choix de marques</h1>
       </div>
       <div class="row" style="margin-top:20px;">
         <div class="col-lg-3">
@@ -140,16 +140,16 @@
       <div class="row">
         <div class="col-lg-7">
           <div class="c b">
-            <h2>Restez Informé</h2>
+            <h2>Rester Informé</h2>
           </div>
           <form class="Newsleter" action="index.html" method="post" style="margin-bottom: 20px;">
-            <p>Abonnez-vous et recevez nos promotion et des offres exclusives:</p>
+            <p>Abonnez-vous et recevez nos promotions et des offres exclusives:</p>
             <input type="email" name="mail" placeholder="votre email"> <input type="submit" name="" value="Je m'abonne">
           </form>
         </div>
         <div class="col-lg-4">
           <div class="c b">
-            <h2>Avis de nos client</h2>
+            <h2>Avis de nos clients</h2>
           </div>
           <div class="star center">
           <h2 class="c">4.5/5 <br></h2>
