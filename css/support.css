@@ -2,6 +2,7 @@ body{
   animation-name: fade;
   animation-duration: 10s;
   animation-iteration-count: infinite;
+  box-sizing: content-box;
 }
 
 .supportMain{
@@ -10,7 +11,7 @@ body{
   margin: auto;
   padding-top: 50px;
   padding-bottom: 50px;
-  width: 70%;
+  max-width: 80%;
   -webkit-box-shadow: inset 0px 0px 30px 0px rgba(70,70,71,1);
 -moz-box-shadow: inset 0px 0px 30px 0px rgba(70,70,71,1);
 box-shadow: inset 0px 0px 30px 0px rgba(70,70,71,1);
@@ -20,8 +21,7 @@ form{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  min-width: 300px;
-  width: 80%;
+  max-width: 50%;
   margin: auto;
   margin-top: 50px;
   margin-bottom: 50px;
@@ -37,11 +37,12 @@ form{
   animation-iteration-count: infinite;
 }
 
-form h1{
+form *{
   margin: auto;
 }
 
 form fieldset{
+  max-width: 80%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -59,13 +60,18 @@ form p{
 }
 
 form fieldset *:not([type="submit"]){
+  max-width: 80%
   opacity: 0.5;
-  width: auto;
+}
+
+form textarea{
+  max-width: 70%;
+  margin-top: 10px;
 }
 
 form input[type="submit"]{
   height: 38px;
-  min-width: 30%;
+  max-width: 30%;
   margin: auto;
   margin-top: 20px;
   background-color: #0d0630;
@@ -80,12 +86,31 @@ form input:hover:not([type = "submit"]) , form textarea:hover , form select:hove
   opacity: 1.0;
 }
 form input:hover[type="submit"]{
-  width: 32%;
+  max-width: 32%;
   height: 40px;
   background-color: white ;
   color: teal;
   opacity: 1.0;
   border: 2px solid teal;
+}
+
+@media (max-width: 500px) {
+  form{
+    max-width: 80%;
+  }
+  form textarea{
+    display: none;
+  }
+  form fieldset p {
+    font-size: 1.6rem;
+  }
+
+  form input[type="submit"]{
+    font-size: 1.0rem;
+  }
+  form fieldset *:not([type="submit"]){
+    max-width: 150px;
+  }
 }
 
 @keyframes fade {
