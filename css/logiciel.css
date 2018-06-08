@@ -72,3 +72,22 @@ main {
 a:link {
     text-decoration: none;
 }
+
+.troll {
+    color: #FFFAE0;
+    background-color: red;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: center;
+    animation: blink-animation 0.7s steps(6, start) infinite;
+}
+
+
+/*animations*/
+
+@keyframes blink-animation {
+    to {
+        color: red;
+        background-color: #FFFAE0;
+    }
+}

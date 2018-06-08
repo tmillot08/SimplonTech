@@ -7,23 +7,23 @@
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/hardware.css">
-    <title>Nos Produits</title>
+    <title>Hardware</title>
   </head>
   <body>
     <header>
-      <?php include('../html/header.html') ?>
+      <?php include('header.html') ?>
     </header>
     <main class="main_produits">
     <div class="container">
 
-      <h1>Nos produits</h1>
+      <h1>Hardware</h1>
 
       <h2 id="pc">PC</h2>
 
       <div class="row">
         <div class="col-3">
           <div class="card text-center">
-            <a href="https://google.com">
+            <a href="alienware.php">
             <div class="card-header p-5">Alienware M17x</div>
             <div class="image_card1 card_image"></div>
             <div class="card-body text-left p-4">
@@ -38,7 +38,7 @@
 
           <div class="col-3">
             <div class="card text-center">
-              <a href="https://google.com">
+              <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
               <div class="card-header p-5">Right pc</div>
               <div  class="image_card2 card_image"></div>
               <div class="card-body text-left p-4">
@@ -207,12 +207,9 @@
     </main>
 
     <footer>
-      <?php include("../html/footer.html") ?>
+      <?php include("footer.html") ?>
     </footer>
     <script type="text/javascript" src="../js/selecteur.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
   </body>
 </html>
 
