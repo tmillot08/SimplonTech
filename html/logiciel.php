@@ -16,8 +16,8 @@
                 <div class="logiInfo">
                     <img class="pict" src="../img/7zip.png">
                     <p class="txt">7-Zip permet de compresser vos dossiers et vos fichiers afin qu'ils utilisent moins d'espace sur votre disque dur. Le programme est capable de créer des archives aux formats 7z, TAR, Gzip, Bzip2 et ZIP. Il peut ouvrir de nombreux formats tels que 7z, ZIP, CAB, RAR, ARJ, Gzip, Bzip2, TAR, Cpio, RPM et DEB.</p>
-                    <a href="../dl/7z1805-x64.exe"><p class="btn">GRATUIT<br><br><i class="fas fa-cart-arrow-down icoach"></i><br><br>>DOWNLOAD<</p></a>
-                    <p class="btn">Plus d'Info<br><br><i class="fas fa-file-alt icoinf"></i></p>
+                    <a class="btn" href="../dl/7z1805-x64.exe"><p>GRATUIT<br><br><i class="fas fa-cart-arrow-down icoach"></i><br><br>>DOWNLOAD<</p></a>
+                    <a class="btn" href="../html/7zip.php"><p>Plus d'Info<br><br><i class="fas fa-file-alt icoinf"></i></p></a>
                 </div>
             </div>   
             <div class="logiCard">
