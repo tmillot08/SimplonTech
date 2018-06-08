@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset:"UTF-8">
-	<title>LOGICIELS</title>
+	<title>7ZIP</title>
 	<link rel="stylesheet" href="../css/reset.css">
 	<link rel="stylesheet" href="../css/style.css">
 	<link rel="stylesheet" href="../css/7zip.css">
