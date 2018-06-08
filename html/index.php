@@ -70,7 +70,7 @@
           <div class="card">
             <img class="card-img-top" src="../img/pc.png" alt="pc" style="max-width: 250px;">
             <div class="card-body">
-              <a href="#" class="btn btn-block"><p>Les Ordinateurs </p></a>
+              <a href="../html/hardware.php" class="btn btn-block"><p>Les Ordinateurs </p></a>
               <ul>
                 <li>Ordinateur Gaming</li>
                 <li>Ordinateur Bureautique</li>
@@ -82,7 +82,7 @@
           <div class="card">
             <img class="card-img-top" src="../img/compo.png" alt="composant" style="max-width: 250px;">
             <div class="card-body">
-              <a href="#" class="btn btn-block"><p>Les composants</p></a>
+              <a href="../html/hardware.php" class="btn btn-block"><p>Les composants</p></a>
               <ul>
                 <li>Carte Graphique</li>
                 <li>Processeur</li>
@@ -94,7 +94,7 @@
           <div class="card">
             <img class="card-img-top" src="../img/casque.png" alt="casque" style="max-width: 250px;" >
             <div class="card-body">
-              <a href="#" class="btn btn-block"> <p>Les Périphériques</p></a>
+              <a href="../html/hardware.php" class="btn btn-block"> <p>Les Périphériques</p></a>
               <ul>
                 <li>Ecran</li>
                 <li>Clavier</li>
@@ -111,30 +111,30 @@
       </div>
       <div class="row" style="margin-top:20px;">
         <div class="col-lg-3">
-          <img src="../img/intel.png" alt="" style="max-width:200px;">
+          <a href="https://www.intel.fr/content/www/fr/fr/homepage.html" target="_blank"><img src="../img/intel.png" alt="" style="max-width:200px;"></a>
         </div>
         <div class="col-lg-3">
-          <img src="../img/geforce.png" alt="" style="max-width:200px;">
+          <a href="https://www.nvidia.fr/geforce/geforce-experience/" target="_blank"><img  src="../img/geforce.png" alt="" style="max-width:200px;"></a>
         </div>
         <div class="col-lg-3">
-          <img src="../img/cooler.png" alt="" style="max-width:200px;">
+          <a href="http://www.coolermaster.com/"target="_blank"><img src="../img/cooler.png" alt="" style="max-width:200px;"></a>
         </div>
         <div class="col-lg-3">
-          <img src="../img/asus.png" alt="" style="max-width:200px;">
+        <a href="https://www.asus.com/fr/" target="_blank">  <img src="../img/asus.png" alt="" style="max-width:200px;"></a>
         </div>
       </div>
       <div class="row">
         <div class="col-lg-3">
-          <img src="../img/Ryzen.png" alt="" style="max-width:200px;">
+        <a href="https://www.amd.com/fr/ryzen" target="_blank">  <img src="../img/Ryzen.png" alt="" style="max-width:200px;"></a>
         </div>
         <div class="col-lg-3">
-          <img  src="../img/amd.png" alt="" style="max-width:200px;">
+          <a href="https://www.amd.com/fr" target="_blank"><img  src="../img/amd.png" alt="" style="max-width:200px;"></a>
         </div>
         <div class="col-lg-3">
-          <img src="../img/corsair.png" alt="" style="max-width:200px;">
+        <a href="https://www.corsair.com/fr/fr/" target="_blank">  <img src="../img/corsair.png" alt="" style="max-width:200px;"></a>
         </div>
         <div class="col-lg-3">
-          <img src="../img/roc.png" alt="" style="max-width:200px;">
+          <a href="https://www.roccat.org/fr-FR/Home/Overview/" target="_blank"><img src="../img/roc.png" alt="" style="max-width:200px;"></a>
         </div>
       </div>
       <div class="row">
