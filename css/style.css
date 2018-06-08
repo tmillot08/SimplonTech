@@ -171,6 +171,13 @@ header li a:hover:not(.test){
   .accueil h1{
     font-size: 2.2rem;
   }
+  #ban{
+    height:250px;
+  }
+
+  .title{
+    padding-top: 80px;
+  }
 }
 
 @media (max-width: 500px) {
@@ -193,6 +200,12 @@ header li a:hover:not(.test){
   }
   #tech{
     margin-left: 100px;
+  }
+  #ban{
+    height: 150px;
+  }
+  .title{
+    padding-top: 10px;
   }
 }
 /************************FOOTER**************************/
