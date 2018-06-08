@@ -112,16 +112,16 @@
       </div>
       <div class="row" style="margin-top:20px;">
         <div class="col-lg-3">
-          <img src="../img/intel.png" alt="" style="width:200px;">
+          <img src="./img/intel.png" alt="" style="width:200px;">
         </div>
         <div class="col-lg-3">
-          <img src="../img/geforce.png" alt="" style="width:200px;">
+          <img src="./img/geforce.png" alt="" style="width:200px;">
         </div>
         <div class="col-lg-3">
-          <img src="../img/cooler.png" alt="" style="width:200px;">
+          <img src="./img/cooler.png" alt="" style="width:200px;">
         </div>
         <div class="col-lg-3">
-          <img src="../img/asus.png" alt="" style="width:200px;">
+          <img src="./img/asus.png" alt="" style="width:200px;">
         </div>
       </div>
       <div class="row">
