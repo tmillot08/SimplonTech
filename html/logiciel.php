@@ -23,7 +23,7 @@
             <div class="logiCard">
                 <div class="logiInfo">
                     <img class="pict" src="../img/win10h.jpg">
-                    <p class="txt">Windows 10 familial 32 bits/64bits est compatible avec la majorité de vos logiciels et vos périphériques. Découvrez Cortana, l’assistante numérique personnelle Microsoft, profitez de navigateur Microsoft Edge et Jouez aux jeux Xbox One sur les appareils Windows 10.</p>
+                    <p class="txt">Windows 10 familial 32 bits/64bits est compatible avec la majorité de vos logiciels et vos périphériques. Découvrez Cortana, l’assistante numérique personnelle Microsoft, profitez de navigateur Microsoft Edge et Jouez aux jeux Xbox One sur les appareils Windows 10.<br><br><br><a href="https://www.youtube.com/watch?v=2Z4m4lnjxkY" class="troll">The Elder Scroll VI Valenwood offert avec chaque achat, cliquez ici pour plus d'informations</a></p>
                     <p class="btn">Acheter<br><br><i class="fas fa-cart-arrow-down icoach"></i><br><br>>120.00€<</p>
                     <p class="btn">Plus d'Info<br><br><i class="fas fa-file-alt icoinf"></i></p>
                 </div>
