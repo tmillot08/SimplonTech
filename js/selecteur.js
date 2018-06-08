@@ -3,7 +3,7 @@ var target = document.getElementsByClassName('selectNav');
 var indextarget;
 
 switch (nomFichier) {
-  case "accueil.php":
+  case "index.php":
     indextarget = 0;
     break;
   case "logiciel.php":
