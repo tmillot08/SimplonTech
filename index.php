@@ -69,7 +69,7 @@
       <div class="row c">
         <div class="card-deck" style="width: 980px;">
           <div class="card">
-            <img class="card-img-top" src="../img/pc.png" alt="pc" style="width: 250px;">
+            <img class="card-img-top" src="./img/pc.png" alt="pc" style="width: 250px;">
             <div class="card-body">
               <a href="#" class="btn btn-block"><p>Les Ordinateurs </p></a>
               <ul>
@@ -81,7 +81,7 @@
             </div>
           </div>
           <div class="card">
-            <img class="card-img-top" src="../img/compo.png" alt="composant" style="width: 250px;">
+            <img class="card-img-top" src="./img/compo.png" alt="composant" style="width: 250px;">
             <div class="card-body">
               <a href="#" class="btn btn-block"><p>Les composants</p></a>
               <ul>
@@ -93,7 +93,7 @@
             </div>
           </div>
           <div class="card">
-            <img class="card-img-top" src="../img/casque.png" alt="casque" style="width: 250px;" >
+            <img class="card-img-top" src="./img/casque.png" alt="casque" style="width: 250px;" >
             <div class="card-body">
               <a href="#" class="btn btn-block"> <p>Les Périphérique</p></a>
               <ul>
