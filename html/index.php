@@ -65,8 +65,8 @@
           <p>Reparer ou rembouser</p>
         </div>
       </div>
-      <div class="row c">
-        <div class="card-deck" style="width: 980px;">
+      <div class="row c" style="max-width:100%;">
+        <div class="card-deck" style="max-width: 980px;">
           <div class="card">
             <img class="card-img-top" src="../img/pc.png" alt="pc" style="max-width: 250px;">
             <div class="card-body">
@@ -109,7 +109,7 @@
       <div class="c b">
         <h1>Un grand choix de marque</h1>
       </div>
-      <div class="row" style="margin-top:20px;">
+      <div class="row marque" style="margin-top:20px;">
         <div class="col-lg-3">
           <img src="../img/intel.png" alt="" style="max-width:200px;">
         </div>
@@ -123,7 +123,7 @@
           <img src="../img/asus.png" alt="" style="max-width:200px;">
         </div>
       </div>
-      <div class="row">
+      <div class="row marque">
         <div class="col-lg-3">
           <img src="../img/Ryzen.png" alt="" style="max-width:200px;">
         </div>
