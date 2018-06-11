@@ -94,7 +94,7 @@ form input:hover[type="submit"]{
   border: 2px solid teal;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   form{
     max-width: 80%;
   }
