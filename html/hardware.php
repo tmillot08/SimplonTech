@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/hardware.css">
-    <title>Nos Produits</title>
+    <title>Hardware</title>
   </head>
   <body>
     <header>
@@ -16,7 +16,7 @@
     <main class="main_produits">
     <div class="container">
 
-      <h1>Nos produits</h1>
+      <h1>Hardware</h1>
 
       <h2 id="pc">PC</h2>
 
